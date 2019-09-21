@@ -30,7 +30,7 @@ function stylenum(n){
 // console.log(stylenum(10000));
 
 
-d3.csv("/data/cities.csv")
+d3.csv("data/cities.csv")
     .then(function(data){
         console.log(data);
 
