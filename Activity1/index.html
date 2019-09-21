@@ -9,10 +9,21 @@
     
 </head>
 <body>
-
-    <!-- content -->
-
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="js/main.js"></script>
+
+            <!-- content -->
+            <svg width="500" height="500">
+                    <rect x="0" y="0" width="400px" height="200px" fill="green"></rect>
+            </svg>
+
+            <script>
+                    
+                d3.select("body")
+                    .append("div")
+                    .text("Dynamic Content");
+                
+            </script>
+
 </body>
 </html>
